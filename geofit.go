@@ -1,10 +1,6 @@
 package geofit
 
-import (
-  "fmt"
-)
-
-func Version() {
-    fmt.Println("v1.0.0")
+func GetVersion() string {
+	version := "0.0.1"
+	return version
 }
-
